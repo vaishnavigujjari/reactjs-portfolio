@@ -4,7 +4,7 @@ import './style.css'
 
 const Experience = () => {
     const myInlineStyles = {
-        height: "90vh",
+        // height: "90vh",
       };
       
     return (
@@ -15,7 +15,7 @@ const Experience = () => {
                 <div class="experience-details-container">
                     <div class="about-containers">
                         <div class="details-container">
-                            <h2 class="experience-sub-title">Full Stack Web Development</h2>
+                            <h2 class="experience-sub-title">Front-End</h2>
                             <div class="article-container">
                                 <article>
                                     <img
@@ -86,7 +86,7 @@ const Experience = () => {
                             </div>
                         </div>
                         <div class="details-container">
-                            <h2 class="experience-sub-title">Full Stack Web Development</h2>
+                            <h2 class="experience-sub-title">Back-End</h2>
                             <div class="article-container">
                                 <article>
                                     <img
@@ -151,6 +151,77 @@ const Experience = () => {
                                     />
                                     <div>
                                         <h3>Git</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="details-container">
+                            <h2 class="experience-sub-title">Data Analytics</h2>
+                            <div class="article-container">
+                            <article>
+                                    <img
+                                        src={Checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                    />
+                                    <div>
+                                        <h3>Python</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src={Checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                    />
+                                    <div>
+                                        <h3>R</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src={Checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                    />
+                                    <div>
+                                        <h3>SQL</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src={Checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                    />
+                                    <div>
+                                        <h3>Excel</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src={Checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                    />
+                                    <div>
+                                        <h3>Tableau</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img
+                                        src={Checkmark}
+                                        alt="Experience icon"
+                                        class="icon"
+                                    />
+                                    <div>
+                                        <h3>Power BI</h3>
                                         <p>Intermediate</p>
                                     </div>
                                 </article>

@@ -2,7 +2,6 @@ import React from "react";
 import AboutPic from "../assets/about-pic.JPG";
 import EducationIcon from "../assets/education.png";
 import Experience from "../assets/experience.png";
-import Arrow from "../assets/arrow.png";
 import './style.css';
 
 const About = () => {
@@ -15,7 +14,7 @@ const About = () => {
           <div class="section__pic-container">
             <img
               src={AboutPic}
-              alt="Profile picture"
+              alt="Profile "
               class="about-pic"
             />
           </div>
@@ -28,7 +27,7 @@ const About = () => {
                   class="icon"
                 />
                 <h3>Experience</h3>
-                <p>2+ years <br />Full Stack Web Development</p>
+                <p>2+ years <br />Full Stack Software Engineer</p>
               </div>
               <div class="details-container">
                 <img

@@ -1,6 +1,4 @@
 import React from "react";
-import Arrow from "../assets/arrow.png";
-import Checkmark from "../assets/checkmark.png";
 import Test1 from "../assets/test1.jpeg";
 import Test2 from "../assets/test2.jpeg";
 import Test3 from "../assets/test3.jpeg";
@@ -8,7 +6,7 @@ import './style.css'
 
 const Testimonials = () => {
   const myInlineStyles = {
-    height: "120vh",
+    // height: "120vh",
   };
 
   return (
